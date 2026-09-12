@@ -6,7 +6,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
-  // GitHub Pages serves the site at https://wamichae1.github.io/Tempo/
+  // GitHub Pages serves the site at https://Tan5dev.github.io/Tempo/
   base: command === 'build' ? '/Tempo/' : '/',
   plugins: [react(), tailwindcss()],
   resolve: {
